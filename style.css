@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,10 +46,13 @@ table {
 
 /* FIM DO RESET */
 
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 *{
     text-decoration: none;
+}
+
+body{
+	display: flex;
     font-family: "Comic Neue", serif;
     font-weight: 300;
     font-style: normal;
@@ -55,11 +60,132 @@ table {
 
 nav{
     background-color: #62A51B;
-    padding: 15px 10px 15px 10px;
+    padding: 5px 10px 5px 10px;
     color: azure;
+	display: flex;
+	flex-direction: row;
+	height: fit-content;
+	width: 100%;
 }
 
 nav a{
     margin: 10px;
     color: azure;
+}
+
+aside{
+	position: absolute;
+	top: 70px;
+	right: 30px;
+}
+
+aside img{
+	width: 150px;
+	height: 880px;
+}
+
+header{
+	position: absolute;
+	top: 70px;
+	left: 30px;
+}
+
+header img{
+	height: 400px;
+	width: 1000px;
+}
+
+.bb_bg{
+	background-color: #F0DE8E;
+}
+
+.xmas_bg{
+	background-color: #912222;
+}
+
+.home_bg{
+	background-color: #96ACB5;
+}
+
+.art{
+	display: flex;
+	position: absolute;
+	width: 1000px;
+	top: 500px;
+	left: 30px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: azure;
+}
+
+.art article{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 450px;
+	height: 250px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.art2{
+	display: flex;
+	position: absolute;
+	width: 1000px;
+	top: 800px;
+	left: 30px;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	color: azure;
+}
+
+.art2 article{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	width: 1000px;
+	height: 150px;
+	font-size: 30px;
+	text-align: left;
+}
+
+.art2 h2{
+	margin-bottom: 20px;
+}
+
+footer{
+	background-color: #62A51B;
+	padding: 10px 0px 5px 10px;
+    color: azure;
+	display: flex;
+	flex-direction: row;
+	height: fit-content;
+	width: 100%;
+	position: absolute;
+	top: 1000px;
+}
+
+.bb{
+	background-color: #7F6F0F;
+}
+
+.xmas{
+	background-color: #1A5D0B;
+}
+
+.home1{
+	background-color: #286A42;
+}
+
+.home2{
+	background-color: #656C36;
+}
+
+.home3{
+	background-color: #76393B	;
 }
